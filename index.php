@@ -50,16 +50,18 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/yakub.png" alt="Chain App Dev">
+              <h2 class="my-3 mx-5">Ya'kub Darussalam</h2>
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li class="scroll-to-section"><a href="#top" class="active">Dashboard</a></li>
-              <li class="scroll-to-section"><a href="#service">Service</a></li>
-              <li class="scroll-to-section"><a href="#experience">Skill & Experience</a></li>
+              <li class="scroll-to-section"><a href="#skills">Service</a></li>
+              <li class="scroll-to-section"><a href="#experiens">Experience</a></li>
+              <li class="scroll-to-section"><a href="#projects">Project</a></li>
               <li class="scroll-to-section"><a href="#certified">Certified</a></li>
-              <li class="scroll-to-section"><a href="library.php">Library</a></li></ul>        
+              <li class="scroll-to-section"><a href="#about">About Me</a></li>
+            </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
@@ -90,7 +92,7 @@
                       <a href="https://www.linkedin.com/in/yakubdaruss/">Linkedin <i class="fab fa-linkedin"></i></a>
                     </div>
                     <div class="white-button scroll-to-section">
-                      <a href="#contact">Github <i class="fab fa-github"></i></a>
+                      <a href="https://github.com/mrkubs">Github <i class="fab fa-github"></i></a>
                     </div>
                   </div>
                 </div>
@@ -107,7 +109,7 @@
     </div>
   </div>
 
-  <div id="service" class="services section">
+  <div id="skills" class="services section">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
@@ -122,14 +124,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 ">
-          <div class="service-item first-service">
+          <div class="service-item first-service" style="height: 300px;">
             <div class="icon"></div>
             <h4>Network Administration</h4>
             <p>Provide Configuration of Network Devices by Implementing Features and Functions of Routing Switching and QOS.</p>
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item second-service">
+          <div class="service-item second-service" style="height: 300px;">
             <div class="icon"></div>
             <h4>Network Monitoring</h4>
             <p class="pb-5">Network Monitoring with Tools Such as The Dude, Cacti, Zabbix, Prtg etc.</p>
@@ -137,7 +139,7 @@
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item third-service">
+          <div class="service-item third-service" style="height: 300px;">
             <div class="icon"></div>
             <h4>IT Support</h4>
             <p>Support Maintenance, Troubleshoot & Installation Onsite or By Remote.</p>
@@ -145,7 +147,7 @@
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item fourth-service">
+          <div class="service-item fourth-service" style="height: 300px;">
             <div class="icon"></div>
             <h4>Server Administration</h4>
             <p>Manage & Develop Server with Linux & Windows Server.</p>
@@ -156,42 +158,42 @@
     </div>
   </div>
 
-  <div id="experience" class="about-us section">
-    <div class="container">
+  <div  class="about-us section" id="experiens">
+    <div class="container" >
       <div class="row">
         <div class="col-lg-6 align-self-center">
-          <div class="section-heading offset-lg-3">
+          <div class="section-heading offset-lg-3" >
             <h4>Work Experience</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
           </div>
           <div class="row">
-            <div class="col-lg-6">
-              <div class="experience1-item" style="padding-top: 30px;">
-                <img src="assets/images/netdata.png" alt="" style="width:140px;height:50px;">
+            <div class="col-lg-6 mt-3">
+              <div class="experience1-item " style="height: 250px;">
+                <img src="assets/images/netdata.png" alt="" style="width:120px;height:40px;" class="mb-3">
                 <h4>PT. Network Data Sistem</h4>
                 <p>Network Engineer</p>
-                <p>Sep 2022 - Now</p>
+                <p>Sep 2022 - Present</p>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="experience2-item" style="padding-top: 20px;"">
-                <img src="assets/images/internetwork.png" alt=""  style="width:120px;height:60px;">
+            <div class="col-lg-6 mt-3">
+              <div class="experience2-item" style="height: 250px;">
+                <img src="assets/images/internetwork.png" alt=""  style="width:90px;height:40px;" class="mb-3">
                 <h4>PT. Internetwork Komunikasi Indonesia</h4>
                 <p>Network Operation Center</p>
                 <p>Jan 2021 - Jun 2022</p>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="experience3-item" style="padding-top: 20px; padding-bottom:50px">
-                <img src="assets/images/cni.png" alt=""  style="width:90px;height:50px;">
+            <div class="col-lg-6 mt-3">
+              <div class="experience3-item " style="height: 250px;">
+                <img src="assets/images/cni.png" alt=""  style="width:50px;height:30px;" class="mb-3">
                 <h4>PT. Cyber Network Indonesia</h4>
                 <p>Engineer on Site</p>
                 <p>Jun 2020 - Jan 2021</p>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="experience4-item" style="padding-top: 0px; padding-bottom:30px">
-                <img src="assets/images/mtm.png" alt=""  style="width:90px;height:90px;">
+            <div class="col-lg-6 mt-3">
+              <div class="experience4-item" style="height: 250px;">
+                <img src="assets/images/mtm.png" alt=""  style="width:60px;height:60px;">
                 <h4>PT. Mitra Telemedia Manunggal</h4>
                 <p>Network Operation Center</p>
                 <p>Oct 2018 - Mar 2020</p>
@@ -208,7 +210,7 @@
     </div>
   </div>
 
-  <div id="project" class="the-clients">
+  <div id="projects" class="the-clients">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
@@ -226,10 +228,11 @@
                     <div class="box-item active">
                       <div class="thumb">
                         <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>PT. Indonesia Morowali Industrial Park</h4>                          </div>
-                          <div class="jenis col-lg-4 col-sm-4 d-none d-sm-block">
-                            <p>Network & Firewall</p>
+                          <div class="col-lg-7 col-sm-4 col-12">
+                            <h4>PT. Indonesia Morowali Industrial Park</h4>
+                          </div>
+                          <div class="col-lg-3 col-sm-4 p-2">
+                            <h6>Network & Firewall</h6>
                           </div>
                           
                         </div>
@@ -238,11 +241,11 @@
                     <div class="box-item">
                       <div class="thumb">
                         <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>PT. Tri Adi Bersama (Anteraja)</h4>
+                          <div class="col-lg-7 col-sm-4 col-12">
+                            <h4>PT. Gramedia Asri Media</h4>
                           </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <p class="category">Network</p>
+                          <div class="col-lg-3 col-sm-4 p-2">
+                            <h6 >Network</h6>
                           </div>
                         </div>
                       </div>
@@ -251,11 +254,11 @@
                     <div class="box-item">
                       <div class="thumb">
                         <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>PT. Gramedia Asri Media</h4>
+                          <div class="col-lg-7 col-sm-4 col-12">
+                            <h4>PT. NEC Indonesia</h4>
                           </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Network</span>
+                          <div class="col-lg-3 col-sm-4 p-2">
+                            <h6 class="category">Network</h6>
                           </div>
                         </div>
                       </div>
@@ -263,11 +266,11 @@
                     <div class="box-item">
                       <div class="thumb">
                         <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Badan Meteorologi Klimatologi dan Geofisika</h4>
+                          <div class="col-lg-7 col-sm-4 col-12">
+                            <h4>PT. NTT Indonesia</h4>
                           </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Network</span>
+                          <div class="col-lg-3 col-sm-4 p-2">
+                            <h6 class="category">Network & Firewall</h6>
                           </div>
                         
                         </div>
@@ -283,8 +286,8 @@
                           <div class="row">
                             <div class="col-lg-12">
                               <div class="client-content">
-                                <img src="assets/images/imip.png" alt="" style="width:150px;height:100px;">
-                                <p>“Implement Fortigate for Main Gateway & Firewall”</p>
+                                <img src="assets/images/imip.png" alt="" style="width:90px;height:60px;">
+                                <p>“Implementing Fortigate as the main Gateway and Firewall”</p>
                               </div>
                             </div>
                           </div>
@@ -297,8 +300,8 @@
                           <div class="row">
                             <div class="col-lg-12">
                               <div class="client-content">
-                                <img src="assets/images/anteraja.png" alt="" style="width:120px;height:80px;">
-                                <p>“Provide MikroTik Routers on Branch for Manage Bandwith, Filter Rules Access IP, Web & Application.”</p>
+                                <img src="assets/images/gramedia.png" alt="" style="width:120px;height:80px;">
+                                <p>“Implementing Peplink SD-WAN to manage branch-to-HQ connections.”</p>
                               </div>
                             </div>
                           </div>
@@ -311,8 +314,8 @@
                           <div class="row">
                             <div class="col-lg-12">
                               <div class="client-content">
-                                <img src="assets/images/gramedia.png" alt="" style="width:150px;height:100px;">
-                                <p>“Implement SDWAN Peplink for Manage Connection Branch to HQ”</p>
+                                <img src="assets/images/nec.png" alt="" style="width:150px;height:100px;">
+                                <p>“Implementing the Cisco WLC 9800 series for several clients in an industrial area.”</p>
                               </div>
                             </div>
                           </div>
@@ -325,8 +328,8 @@
                           <div class="row">
                             <div class="col-lg-12">
                               <div class="client-content">
-                                <img src="assets/images/bmkg.png" alt="" style="width:90px;height:100px;">
-                                <p>“Support Prefentive Maintenance, Rejuvenation of End-of-Life Distribution, Access Switches, & Troubleshoot End User Problem.”</p>
+                                <img src="assets/images/ntt.png" alt="" style="width:90px;height:100px;">
+                                <p>“Corrective and preventive maintenance for ITLAN devices such as Fortigate 100F, Cisco 9200, and Aruba Wireless.”</p>
                               </div>
                             </div>
                           </div>
@@ -359,6 +362,7 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         </ol>
     <div class="carousel-inner offset-lg-1">
       
@@ -379,12 +383,17 @@
       </div>
       <div class="carousel-item col-lg-10">
         <div class="pricing-item-regular ">
-        <img class="d-block w-75" src="assets/images/cscu.png" alt="Fourth slide" style="margin:auto;">
+        <img class="d-block w-75" src="assets/images/ccna.png" alt="Fourth slide" style="margin:auto;">
       </div>
       </div>
       <div class="carousel-item col-lg-10">
         <div class="pricing-item-regular ">
         <img class="d-block w-50 h-25" src="assets/images/jwd.jpg" alt="Fifth slide" style="margin:auto;">
+      </div>
+      </div>
+      <div class="carousel-item col-lg-10">
+        <div class="pricing-item-regular ">
+        <img class="d-block w-75" src="assets/images/cscu.png" alt="Sixth slide" style="margin:auto;">
       </div>
       </div>
     </div>
@@ -423,14 +432,14 @@
         <div class="col-lg-5">
           <div class="footer-widget">
             <br><br><br>
-            <h4>Contact Us</h4>
-            <p>Albert Einstein Street, Beta City, Mars </p>
+            <h4>Get in Touch</h4>
+            <p>Bekasi, West Java, Indonesia</p>
             <p><a href="#">skype : yakub.daruss1</a></p>
             <p><a href="#">info@yakub.my.id</a></p>          </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright-text">
-            <p>Copyright © 2022 Kubs-Tech Inc. All Rights Reserved. 
+            <p>Made with Happiness. All Rights Reserved. </p>
           </div>
         </div>
       </div>
