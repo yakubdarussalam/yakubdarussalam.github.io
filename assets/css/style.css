@@ -1385,16 +1385,13 @@ Project
 }
 
 .the-clients .box-item :hover {
-  background-image: url(/assets/images/server-bg.png);
+  /*background-image: url(/assets/images/server-bg.jpg);*/
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.the-clients .box-item :active {
-  /*background-image: url(/assets/images/service-bg.jpg);*/
-  
-}
+
 
 
 /* 
