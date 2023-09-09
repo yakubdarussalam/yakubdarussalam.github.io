@@ -379,8 +379,8 @@ header
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     position: relative;
     z-index: 999;
 }
@@ -388,7 +388,7 @@ header
 .background-header .main-nav .logo {
   line-height: 80px;
   margin-top: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 7px;
   
 }
 
@@ -1396,7 +1396,7 @@ Project
 }
 
 .the-clients .box-item :active {
-  background-image: url(/assets/images/service-bg.jpg);
+  /*background-image: url(/assets/images/service-bg.jpg);*/
   
 }
 
