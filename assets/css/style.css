@@ -369,7 +369,7 @@ header
   color: #4b8ef1;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  margin-top: auto;
+  
 }
 
 .header-area .main-nav .logo {
@@ -379,10 +379,15 @@ header
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    margin-top: 13px;
+    position: relative;
+    z-index: 999;
 }
 
 .background-header .main-nav .logo {
   line-height: 80px;
+  margin-top: 5px;
+  
 }
 
 .background-header .main-nav .nav {
@@ -1196,7 +1201,7 @@ Project
 */
 
 .the-clients {
-  margin-top: 130px;
+  margin-top: 50px;
 }
 
 .the-clients  .section-heading {
@@ -1383,10 +1388,14 @@ Project
 
 .the-clients .box-item :hover {
   background-image: url(/assets/images/server-bg.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .the-clients .box-item :active {
   background-image: url(/assets/images/service-bg.jpg);
+  
 }
 
 
@@ -2444,6 +2453,8 @@ experience-item
   position: relative;
   z-index: 1;
   padding: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   background-color: #fff;
   border-radius: 10px;
@@ -2490,6 +2501,8 @@ experience-item
   position: relative;
   z-index: 1;
   padding: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   background-color: #fff;
   border-radius: 10px;
