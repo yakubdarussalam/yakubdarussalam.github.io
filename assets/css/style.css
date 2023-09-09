@@ -379,14 +379,16 @@ header
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    margin-top: 13px;
+    margin-top: 14px;
+    margin-bottom: 14px;
     position: relative;
     z-index: 999;
 }
 
 .background-header .main-nav .logo {
   line-height: 80px;
-  margin-top: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   
 }
 
