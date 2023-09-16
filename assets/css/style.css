@@ -2319,7 +2319,7 @@ responsive
     height: 50px;
     width: 50px;
     margin: 0 2px;
-    background-color: rgb(0, 225, 255);
+    background-color: #4b8ef1;
     display: inline-block;
     transition: background-color 0.6s ease;
     border-radius: 50%;
@@ -2330,7 +2330,7 @@ responsive
     height: 50px;
     width: 50px;
     margin: 0 2px;
-    background-color: rgb(0, 225, 255);
+    background-color: #4b8ef1;
     display: inline-block;
     transition: background-color 0.6s ease;
     border-radius: 50%;
